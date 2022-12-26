@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_trips_app/button_purple.dart';
 
 // ignore: must_be_immutable
 class DescriptionPlace extends StatelessWidget {
@@ -57,6 +58,7 @@ class DescriptionPlace extends StatelessWidget {
     );
 
     final description = Container(
+
       margin: const EdgeInsets.only(
         top: 28.0,
         left: 20.0,
@@ -73,8 +75,10 @@ class DescriptionPlace extends StatelessWidget {
     );
 
     final titleStars = Row(
+
       children: <Widget>[
         Container(
+          
           margin: const EdgeInsets.only(
             top: 320.0,
             left: 20.0,
@@ -103,10 +107,13 @@ class DescriptionPlace extends StatelessWidget {
     );
 
     return Column(
-      children: <Widget>[
+      
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget> [
         titleStars, 
        description,
-       description],
+       description,
+       ButtonPurple("Navigate")],
     );
   }
 }

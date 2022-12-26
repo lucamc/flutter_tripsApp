@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:flutter_trips_app/app_trips.dart';
 import 'package:flutter_trips_app/card_image.dart';
 import 'package:flutter_trips_app/description_place.dart';
 import 'package:flutter_trips_app/gradient_back.dart';
@@ -23,29 +24,13 @@ void main() {
 class MyApp extends StatelessWidget {
    MyApp({super.key});
 
-    String descriptionDummy = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.";
-
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      home:  Scaffold(
-        body: Stack(
-          children: <Widget>[
-            ListView(
-              children: <Widget>[
-                DescriptionPlace("Uruguay", 4, descriptionDummy),
-                ReviewList()
-              ],
-            ),
-            HeaderAppBar(),
-          ],
-        )            
-          
-        
-        ),
+      home:  AppTrips()
     );
   }
 }

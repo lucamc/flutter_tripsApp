@@ -109,3 +109,7 @@ flutter:
     - family: Lato
       fonts:
         - asset: lib/fonts/Lato-Regular.ttf
+  
+    - family: Roboto
+      fonts:
+        - asset: lib/fonts/Roboto-Bold.ttf

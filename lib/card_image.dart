@@ -2,8 +2,9 @@
 
 
 import 'package:flutter/material.dart';
+import 'floating_action_button_red.dart';
 
-class CardImage extends StatelessWidget {
+class  CardImage extends StatelessWidget {
   
   String pathImage = "lib/asset/img/place_1.jpg";
 
@@ -15,11 +16,11 @@ class CardImage extends StatelessWidget {
     
     
   final card = Container(
-    height: 350.0,
+    height: 340.0,
     width: 250.0,
     margin: const EdgeInsets.only(
-      top: 80.0,
-      left: 20.0,
+      top: 112.0,
+      left: 30.0,
     ),
 
     decoration: BoxDecoration(
@@ -40,7 +41,13 @@ class CardImage extends StatelessWidget {
   );
 
 
-    return card;
+    return Stack(
+      alignment: const Alignment(0.8, 1.1),
+      children: <Widget>[
+        card,
+        const FloatingActionButtonRed(),
+      ],
+    );
 
 
   }
