@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_trips_app/review_List.dart';
-import 'description_place.dart';
-import 'header_appbar.dart';
+import 'package:flutter_trips_app/models/review_List.dart';
+import '../models/description_place.dart';
+import '../models/header_appbar.dart';
 
 
 

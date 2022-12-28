@@ -2,9 +2,9 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:flutter_trips_app/home_trips.dart';
-import 'package:flutter_trips_app/profile_trips.dart';
-import 'package:flutter_trips_app/seacrh_trips.dart';
+import 'package:flutter_trips_app/screens/home_trips.dart';
+import 'package:flutter_trips_app/screens/profile_trips.dart';
+import 'package:flutter_trips_app/screens/seacrh_trips.dart';
 
 
 class AppTrips extends StatefulWidget {

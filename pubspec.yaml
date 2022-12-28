@@ -91,15 +91,15 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
 
   assets:
-    - lib/assets/img/person_travel.jpg
-    - lib/assets/img/girl_travel.jpg
-    - lib/assets/img/girl_2_travel.jpg
-    - lib/assets/img/place_1.jpg
-    - lib/assets/img/place_2.jpg
-    - lib/assets/img/place_3.jpg
-    - lib/assets/img/place_4.jpg
-    - lib/assets/img/place_5.jpg
-    - lib/assets/img/place_6.jpg
+    - assets/img/person_travel.jpg
+    - assets/img/girl_travel.jpg
+    - assets/img/girl_2_travel.jpg
+    - assets/img/place_1.jpg
+    - assets/img/place_2.jpg
+    - assets/img/place_3.jpg
+    - assets/img/place_4.jpg
+    - assets/img/place_5.jpg
+    - assets/img/place_6.jpg
 
 
 
@@ -108,8 +108,8 @@ flutter:
   fonts:
     - family: Lato
       fonts:
-        - asset: lib/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Regular.ttf
   
     - family: Roboto
       fonts:
-        - asset: lib/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf

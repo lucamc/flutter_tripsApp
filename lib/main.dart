@@ -1,11 +1,11 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_trips_app/app_trips.dart';
-import 'package:flutter_trips_app/card_image.dart';
-import 'package:flutter_trips_app/description_place.dart';
-import 'package:flutter_trips_app/gradient_back.dart';
-import 'package:flutter_trips_app/header_appbar.dart';
-import 'package:flutter_trips_app/review_List.dart';
+import 'package:flutter_trips_app/screens/app_trips.dart';
+import 'package:flutter_trips_app/widgets/card_image.dart';
+import 'package:flutter_trips_app/models/description_place.dart';
+import 'package:flutter_trips_app/widgets/gradient_back.dart';
+import 'package:flutter_trips_app/models/header_appbar.dart';
+import 'package:flutter_trips_app/models/review_List.dart';
 import 'package:flutter/services.dart';
 
 

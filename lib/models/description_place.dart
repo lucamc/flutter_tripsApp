@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_trips_app/button_purple.dart';
+import 'package:flutter_trips_app/widgets/button_purple.dart';
 
 // ignore: must_be_immutable
 class DescriptionPlace extends StatelessWidget {
